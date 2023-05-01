@@ -1,0 +1,42 @@
+*{
+    font-size: x-large;
+    font-family: 'Cormorant Garamond';
+    background-color: #fefae0;
+}
+
+div{
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+input{
+    border: none;
+    width: 50%;
+    text-align: center;
+    margin: 40px;
+}
+
+li{
+    text-align: left;
+    padding-left: 400px;
+}
+
+li:hover .eliminar{
+    visibility: visible;
+   }
+   
+.eliminar{
+       visibility: hidden;
+   }
+
+footer {
+    font-size: large;
+    padding-left: 400px;
+    text-align: left;
+}
